@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # 参考一键pwn环境 "Github : https://github.com/giantbranch/pwn-env-init"
+# 注意切换目录后记得切换回 cd ~ 切换回来 
 
 # 以调试的方式执行shell ，只识别定义过的变量，同时脚本传回值非0 直接结束shell
 set -eux
@@ -122,6 +123,8 @@ else
     echo "配置zsh成功，请手动配置.zshrc"
 fi
 
+# 待做
+# screen
 
 echo "========================================="
 echo "=============Good, Enjoy it.============="
