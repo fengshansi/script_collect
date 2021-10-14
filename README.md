@@ -17,3 +17,7 @@
 #绝对路径
 .\Get-FoldersWithSize.ps1 -Path "C:\ProgramData"
 ```
+
+# 配置文件
+## .vimrc配置文件
+用于配置vim。精简无插件的.vimrc。
